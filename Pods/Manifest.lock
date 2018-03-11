@@ -1,0 +1,52 @@
+PODS:
+  - Alamofire (4.5.1)
+  - AlamofireImage (3.3.0):
+    - Alamofire (~> 4.5)
+  - AlamofireObjectMapper (5.0.0):
+    - Alamofire (~> 4.1)
+    - ObjectMapper (~> 3.0)
+  - BonMot (5.0)
+  - Crashlytics (3.9.0):
+    - Fabric (~> 1.7.0)
+  - Fabric (1.7.0)
+  - KeychainSwift (9.0.2)
+  - ObjectMapper (3.0.0)
+  - StatefulViewController (3.0)
+  - SwiftDate (4.4.1)
+  - SwiftLint (0.23.1)
+  - SwiftMessages (4.0.0)
+  - TPKeyboardAvoiding (1.3.1)
+
+DEPENDENCIES:
+  - Alamofire
+  - AlamofireImage
+  - AlamofireObjectMapper
+  - BonMot
+  - Crashlytics
+  - Fabric
+  - KeychainSwift
+  - ObjectMapper
+  - StatefulViewController
+  - SwiftDate
+  - SwiftLint
+  - SwiftMessages
+  - TPKeyboardAvoiding
+
+SPEC CHECKSUMS:
+  Alamofire: 2d95912bf4c34f164fdfc335872e8c312acaea4a
+  AlamofireImage: 2e784dc5d00f04903a52c1d169181469c805c3df
+  AlamofireObjectMapper: 5fafc816351cbbc0d486611aaeba7461c0cbad49
+  BonMot: 3ff354572f2aa9295d3760947f7578490cb810be
+  Crashlytics: 64aad5dd97249dd3ff94b979fea140144590cdd3
+  Fabric: e6be012366472553807dada21243c5ab8d904151
+  KeychainSwift: 3ab1d428d0dbff59cd056f1d0bfc640b36c2b081
+  ObjectMapper: 92230db59bf8f341a5c3a3cf0b9fbdde3cf0d87f
+  StatefulViewController: 4803bf900d44de26074344998e10e041113b5931
+  SwiftDate: a70a534d4feed03b2a2b575e36bef82dc2286a8d
+  SwiftLint: 1b670ce79284c76520f84060e87d645078fd32fa
+  SwiftMessages: cd565e0e7d095584be1770c012c6b5be4183b5ee
+  TPKeyboardAvoiding: 0d6af20e95e2850f4c621841225b59ec7d8dd852
+
+PODFILE CHECKSUM: 997d7476a7ea46d8bc0ec0c5e7432386a94caafc
+
+COCOAPODS: 1.3.1
