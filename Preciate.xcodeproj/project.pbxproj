@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		521F4E3420566D9C00F5FD78 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521F4E3320566D9C00F5FD78 /* LoginViewController.swift */; };
 		73B78B5E0A9A58FE2C97A53E /* Pods_Preciate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14EFA0ACD934DC6AAFA6BB94 /* Pods_Preciate.framework */; };
 		C8BB75762055CEA300262FAF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8BB75752055CEA300262FAF /* AppDelegate.swift */; };
 		C8BB75782055CEA300262FAF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8BB75772055CEA300262FAF /* ViewController.swift */; };
@@ -29,6 +30,7 @@
 /* Begin PBXFileReference section */
 		13F64C4B27E945EE5D5D5EDC /* Pods-Preciate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Preciate.release.xcconfig"; path = "Pods/Target Support Files/Pods-Preciate/Pods-Preciate.release.xcconfig"; sourceTree = "<group>"; };
 		14EFA0ACD934DC6AAFA6BB94 /* Pods_Preciate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Preciate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		521F4E3320566D9C00F5FD78 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		C8BB75722055CEA300262FAF /* Preciate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Preciate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8BB75752055CEA300262FAF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C8BB75772055CEA300262FAF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -62,6 +64,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		521F4E3220566CD000F5FD78 /* View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				521F4E3320566D9C00F5FD78 /* LoginViewController.swift */,
+			);
+			path = "View Controller";
+			sourceTree = "<group>";
+		};
 		82174F40B3F15A4DD5C23CFA /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -100,6 +110,7 @@
 		C8BB75742055CEA300262FAF /* Preciate */ = {
 			isa = PBXGroup;
 			children = (
+				521F4E3220566CD000F5FD78 /* View Controller */,
 				C8BB75982055D16600262FAF /* Cells */,
 				C8BB75932055CFB800262FAF /* Storyboards */,
 				C8BB75922055CF9A00262FAF /* Models */,
@@ -382,6 +393,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				521F4E3420566D9C00F5FD78 /* LoginViewController.swift in Sources */,
 				C8BB75782055CEA300262FAF /* ViewController.swift in Sources */,
 				C8BB75972055D13100262FAF /* BaseViewController.swift in Sources */,
 				C8BB75A02055D4AF00262FAF /* CALayer+Preciate.swift in Sources */,
